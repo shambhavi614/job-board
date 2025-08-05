@@ -30,9 +30,49 @@ A full-stack job board web application where employers can post jobs and candida
 - Nodemailer (email notifications)  
 - Git & GitHub (version control)  
 
-## ⚙️ Setup Instructions
+Backend Setup
+bash
+Copy
+Edit
+cd backend
+npm install
+Create a .env file inside backend/ with:
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/shambhavi614/job-board.git
-cd job-board
+env
+Copy
+Edit
+MONGO_URI=mongodb://localhost:27017/jobboard
+JWT_SECRET=yourStrongSecret
+PORT=5000
+EMAIL_USER=yourgmail@gmail.com
+EMAIL_PASS=yourapppassword
+Run the server:
+
+bash
+Copy
+Edit
+node server.js
+3️Frontend Setup
+bash
+Copy
+Edit
+cd frontend
+npm install
+npm start
+Frontend will run on http://localhost:3000
+Backend will run on http://localhost:5000
+
+
+🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+📜 License
+This project is licensed under the MIT License.
+
+yaml
+Copy
+Edit
+
+---
+
+
