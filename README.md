@@ -66,13 +66,7 @@ Backend will run on http://localhost:5000
 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
-📜 License
-This project is licensed under the MIT License.
 
-yaml
-Copy
-Edit
 
----
-
+<img width="875" height="744" alt="image" src="https://github.com/user-attachments/assets/8c4e9570-a3ce-498a-a267-adb2162260fd" />
 
